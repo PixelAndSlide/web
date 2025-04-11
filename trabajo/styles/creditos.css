@@ -1,0 +1,47 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'roboto', sans-serif;
+}
+.backbottom{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.backbottom:hover{
+
+    background-color: rgb(131, 131, 131);
+    transition: 0.3s ease-in-out;
+}
+h1{
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    animation: fadeInDown 1s ease-in-out;
+}
+h2{
+    padding-top: 100px;
+    margin-top: 10px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    animation: fadeInDown 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
